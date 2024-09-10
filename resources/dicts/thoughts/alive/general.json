@@ -832,7 +832,7 @@
 	{
         "id": "faithful_to_kit",
         "thoughts": [
-            "Urges a kit to follow {PRONOUN/r_c/poss} own beliefs"
+            "Urges r_c to follow {PRONOUN/r_c/poss} own beliefs"
         ],
         "main_trait_constraint": [
             "faithful"
