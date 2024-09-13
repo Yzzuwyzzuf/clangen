@@ -10,7 +10,9 @@
     "A formal war with o_c_n was been declared, marking a major turning point in the two Clans' relationships.",
     "c_n launches a retaliatory strike against o_c_n, seeking justice for a past act of aggression, resulting in a back and forth war between the two Clans.",
     "Fuelled by a simmering resentment, o_c_n initiates a war with c_n, determined to reclaim their disputed territory.",
-    "Amidst growing tensions, c_n launches a preemptive strike against o_c_n, fearing an imminent threat to their Clan's existence."
+    "Amidst growing tensions, c_n launches a preemptive strike against o_c_n, fearing an imminent threat to their Clan's existence.",
+    "The last Gathering was a nightmare with c_n and o_c_n ready to tear each others heads off the entire time. It wasn't long before one of them finally snapped, declaring war and leaving the other clans in shock.",
+    "The stress and rising tension between c_n and o_c_n finally snapped during a patrol turned vicious battle ending in a final declaration of war." 
   ],
   "progress_events": {
     "comment": [
@@ -29,7 +31,11 @@
       "In the midst of conflict, a spark of understanding flickers between c_n and o_c_n cats, hinting at a potential path to peace.",
       "Amidst turmoil, empathy blooms between the c_n and o_c_n leaders, kindling hope for reconciliation beyond the battlefield.",
       "Among the Clans, a yearning for peace emerges, bridging divides and nurturing a shared hope for harmony.",
-      "Hope finally begins to unite the Clanmates of c_n and o_c_n, fostering a shared vision of peace."
+      "Hope finally begins to unite the Clanmates of c_n and o_c_n, fostering a shared vision of peace.",
+      "An o_c cat had the perfect opportunity to kill a c_n cat who got lost after accidentially wandering into their territory but decided not to take it, instead choosing to help them find their way back.",
+      "During the last border patrol, it was noticed that both o_c_n and c_n cats were too tired to argue and even shared a few peaceful words.",
+      "The leaders of c_n and o_c_n met at the border to discuss ending the war recently.",
+      "The last Gathering went surprisingly well: no venomous words were spat between the leaders of o_c_n or c_n the entire time!"
     ],
     "neutral": [
       "War continues to rage between c_n and o_c_n.",
@@ -46,7 +52,13 @@
       "c_n patrols begin to bristle with hostility and anticipation when patrolling the o_c_n border.",
       "o_c_n recently lead out a surprise attack to claim c_n territory, but to no avail.",
       "lead_name isn't sure what to think of the whole war situation with o_c_n anymore, as it develops even further.",
-      "The war shows no signs of stopping, the hostility between c_n and o_c_n still going strong."
+      "The war shows no signs of stopping, the hostility between c_n and o_c_n still going strong.",
+      "med_name has been helping c_n cats coat their claws in deathberry juice before border patrols.",
+      "c_n has been setting traps in anticipation of an o_c attack.",
+      "c_n has been strategizing what o_c_n's weaknesses are and how best to target them.",
+      "c_n has been training in new tactics to catch o_c_n off guard.",
+      "c_n strategizes where at the o_c_n border to attack for the biggest impact.",
+      "c_n has been working on an exacuation plan for elders, queens, and kits in case of an o_c_n attack."
     ],
     "rel_down": [
       "o_c_n has taken some of c_n's territory.",
@@ -61,7 +73,12 @@
       "o_c_n's surprise attacks on c_n have been increasing significantly lately.",
       "c_n's surprise attacks on o_c_n have been increasing significantly lately.",
       "Even small sparks of disagreement between o_c_n and c_n can set off a huge battle.",
-      "c_n's cats can't stop themselves from instinctively unsheathing their claws upon encountering an o_c_n cat."
+      "c_n's cats can't stop themselves from instinctively unsheathing their claws upon encountering an o_c_n cat.",
+      "A o_c_n patrol crossed the border. Whether intentional or not, c_n won't let this slide.",
+      "A c_n patrol crossed the border. Whether intentional or not, o_c_n won't let this slide.",
+      "Tensions rose when the o_c_n leader and c_n leader got into a heated argument at the border almost leading to fur flying.",
+      "A border patrol turned into a scuffle after an o_c_n patrol attacked.",
+      "c_n has recently been experimenting with bramble traps and pit traps to injure o_c_n warriors during the next scuffle."
     ]
   },
   "conclusion_events": [
@@ -78,6 +95,7 @@
     "The cats of both o_c_n and c_n have come to a realization that war isn't the best solution, deciding to end it now.",
     "The piercing war cries of o_c_n and c_n have turned into tired, lifeless mewls... And the cats are glad as the war finally comes to a close.",
     "The leaders of o_c_n and c_n have come to terms about the war, deciding that it would best for all the cats if it was formally settled here.",
-    "Remembering all the blood that was shed in the war, o_c_n and c_n have decided to finally settle it, once and for all."
+    "Remembering all the blood that was shed in the war, o_c_n and c_n have decided to finally settle it, once and for all.",
+    "Why were o_c_n and c_n even fighting anymore? Neither clan remembered at this point nor did they want to, opting to end the war once and for all."
   ]
 }
