@@ -36,12 +36,12 @@
     "thistle", "thorn", "thrift", "throat", "thrush", "thud", "thunder", "timber", "toe", "tooth", "trail", "tree",
     "trot", "tumble", "twist", "valley", "watcher", "water", "wave", "web", "whisper", "whistle", "willow", "wind", "wing", "wish",
     "wisp", "zoom", 
-    "eater", "suckle", "twitch", "stretch", "tear", "rot", "mange", "wilt", "herb", "weed", "scruff", "hen", "bass", "possum", "caw", "grunt", 
-    "tuck", "stomp", "nuzzle", "swim", "cough", "fleck", "crack", "crunch", "trip", "flick", "fly", "fisher", "mist", "touch", "rubble", "stick",
-    "spark", "steam", "snore", "shake", "ridge", "doe", "squeak", "sprig", "climb", "hoot", "stunp"
+    "eater", "stretch", "tear", "wilt", "herb", "weed", "scruff", "hen", "bass", "opossum", "caw", "grunt", 
+    "tuck", "stomp", "nuzzle", "swim", "fleck", "crack", "crunch", "trip", "flick", "fly", "fisher", "mist", "touch", "rubble", "stick",
+    "spark", "steam", "snore", "shake", "ridge", "doe", "squeak", "sprig", "climb", "hoot", "stump", "jolt"
   ],
     "pelt_prefixes": {
-    "TwoColour": ["Simple", "One", "Patch"],
+    "TwoColour": ["One", "Patch"],
     "Tabby": ["Tiger", "Brindle", "Thistle", "Thorn", "Bramble", "Bracken", "Marble", "Ripple"],
     "Marbled": ["Ripple", "Dapple", "Dappled", "Brindle", "Marble", "Mottle", "Mottled", "Thistle", "Thorn", "Bracken", "Marble", "Ripple"],
     "Speckled": ["Dappled", "Dapple", "Speckle", "Spotted", "Speck", "Speckled", "Leopard", "Freckle"],
@@ -140,10 +140,9 @@
     "Tansy", "Tempest", "Thorn", "Thrift", "Thrush", "Thunder", "Thyme", "Timber", "Tiny", "Toad", "Torn", "Tremble", "Trickle", "Trout", "Tuft", 
     "Tulip", "Tumble", "Turtle", "Valley", "Vine", "Vixen", "Wasp", "Weasel", "Web", "Weed", "Weevil", "Wet", "Wheat", "Whimsy", "Whirl", "Whisker", 
     "Whisper", "Whispering", "Whistle", "Whorl", "Wild", "Willow", "Wind", "Wing", "Wish", "Wisteria", "Wolf", "Wolverine", "Wood", "Worm", "Wren", "Yarrow", "Yew", "Zinnia", 
-    "Twitch", "Possum", "Skunk", "Mange", "Rustle", "Path", "Quake", "Weak", "Rot", "Vole", "Owlet", "Scruff", "Skitter", "Turkey", "Stray", "Round", "Two", "Fungus", "Wilting",
-    "Wilted", "Harrier", "Dead", "Dull", "Wing", "Flow", "Peony", "Orchid", "Blooming", "Stick", "Stinkbug", "Shiver", "Bent", "Squeak", "Brook", "Betony", "Basalm", "Clove", 
-    "Hen", "Mangle", "Twitch", "Trip", "Plump", "Float", "Fringe", "Simple", "Grit", "Lost", "Muskrat", "Matted", "Clump", "Thin", "Doe", "Pad", "Pea", "Sprig", "Termite",
-    "Lone", "Tangle", "Chamomile", "Lucky", "Mold", "Mint", "Maggot", "Perch", "Tortoise", "Bluet", "Hoot"
+    "Twitch", "Opossum", "Skunk", "Rustle", "Path", "Quake", "Weak", "Rot", "Vole", "Owlet", "Scruff", "Skitter", "Turkey", "Stray", "Round", "Two", "Fungus", "Wilting",
+    "Wilted", "Harrier", "Flow", "Peony", "Orchid", "Blooming", "Stick", "Stinkbug", "Shiver", "Squeak", "Brook", "Betony", "Basalm", "Clove",
+    "Hen", "Trip", "Float", "Grit", "Muskrat", "Doe", "Pad", "Pea", "Sprig", "Termite", "Lone", "Tangle", "Chamomile", "Lucky", "Mint", "Perch", "Tortoise", "Bluet", "Hoot", "Jolt"
   ],
 
     "clan_prefixes": [
@@ -549,7 +548,7 @@
     "Yoonmin", "Yooted", "Yoshi", "Yote", "Yuca", "Yuka", "Yuki", "Yumeko", "Yusuke", "Yuzu", "Yvaine", "Zach", "Zachary", "Zahra", "Zambezi", "Zambia", "Zaniah", "Zari", "Zariah", "Zazu", 
     "Zebra", "Zekrom", "Zelda", "Zell", "Zendaya", "Zenith", "Zeraora", "Zikomo", "Zim", "Zion", "Zira", "Ziti", "Zoe", "Zoomie", "Zorro", "Zorua", "Zuberi", "Zuko", "Zuma", "Zuna", "Zuva", 
     "Jackson", "Jackson Galaxy", 
-    "Saber", "Sabertooth", "Sabertooth Tiger", "Bobcat", "Pizza Crust", "Bingus", "Pusheen", "Pixie", "Waltito", "Megatron", "Gandalf", "Natilla", "Kurt", "Uno", "Maxwell", "Luna",
+    "Saber", "Sabertooth", "Bobcat", "Bingus", "Pusheen", "Pixie", "Gandalf", "Natilla", "Kurt", "Uno", "Maxwell", "Luna",
     "Warrior", "Scourge", "Smudge", "Squilf", "Rusty", "Barley", "Ravenpaw", 
     "Tama", "Minka", "Findus", "Misse", "Fuku", "Chibi", "Tora", "Tekir", "Sarman", "Viiru", "Minni", "Vili", "Vasya", "Mao Mao", "Cirmi", "Mixet", "Piseag", "Micka", "Muzi", "Bilaar", "Pelle", "Maja", "Sigge", "Michi", "Oyen", "Bilaadi", "Gato", "Barsik", "Maja", "Mourek", "Grisou", "Mietze", "Mingming", "Neko", "Fluer", "Yves", "Sakura", "Minka", "Blacky", "Nabi", "Azuki", "Mixet",
     "Winter", "Summer", "Spring", "Autumn", "Kitsune", "Sphinx", 
