@@ -6257,7 +6257,7 @@
         ],
         "involved_cats": {
             "m_c": {
-                "status": [
+                "group": [
                     "-afterlife"
                 ]
             },
