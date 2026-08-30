@@ -5964,7 +5964,7 @@
                     "elder"
                 ],
                 "group": [
-                    "starclan"
+                    "afterlife"
                 ]
             }
         }
@@ -5990,7 +5990,7 @@
                     "deputy"
                 ],
                 "group": [
-                    "starclan"
+                    "afterlife"
                 ]
             }
         }
@@ -6017,7 +6017,7 @@
                     "medicine cat apprentice"
                 ],
                 "group": [
-                    "starclan"
+                    "afterlife"
                 ]
             }
         }
@@ -6044,7 +6044,7 @@
                     "mediator apprentice"
                 ],
                 "group": [
-                    "starclan"
+                    "afterlife"
                 ]
             }
         }
@@ -6078,7 +6078,7 @@
                     "kitten"
                 ],
                 "group": [
-                    "starclan"
+                    "afterlife"
                 ]
             }
         }
@@ -6567,7 +6567,7 @@
         "involved_cats": {
             "r_c": {
                 "standing": {
-        "group": ["clancat"],
+        "group": ["player_clan"],
         "currently": ["lost"],
         "past": []
       }
