@@ -6210,6 +6210,12 @@
             "Took some time to remember r_c today"
         ],
         "involved_cats": {
+            "m_c": {
+                "group": [
+                    "-afterlife"
+                ]
+            },
+            }
             "r_c": {
                 "group": [
                     "starclan",
