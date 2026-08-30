@@ -1452,7 +1452,8 @@
         "Is exhausted chasing after r_c",
         "Is snuggled in {PRONOUN/m_c/poss} nest with {PRONOUN/m_c/poss} litter",
         "Grooms r_c while {PRONOUN/r_c/subject} squeak complaints",
-        "Doesn't want r_c to grow up and face the dangers of the world"
+        "Doesn't want r_c to grow up and face the dangers of the world",
+        "Is daydreaming of the life r_c will lead"
     ],
     "involved_cats": {
         "m_c": {},
