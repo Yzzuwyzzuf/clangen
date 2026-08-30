@@ -6562,12 +6562,12 @@
             "Hopes StarClan is protecting r_c"
         ],
         "involved_cats": {
+            "m_c": {"player_clan"}
+            },
             "r_c": {
                 "standing": {
         "group": ["player_clan"],
-        "currently": [
-            "lost"
-        ]
+        "currently": ["lost"]
       }
             }
         }
