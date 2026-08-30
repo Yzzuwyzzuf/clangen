@@ -6210,18 +6210,13 @@
             "Took some time to remember r_c today"
         ],
         "involved_cats": {
-            "m_c": {
-                "group": [
-                    "-afterlife"
-                ]
-            },
-            }
             "r_c": {
                 "group": [
                     "starclan",
                     "dark_forest"
                 ]
             }
+        }
     },
     {
         "event_id": "gen_to_dead_not_kit",
@@ -6261,12 +6256,15 @@
             "Imagines what r_c's full name would have been"
         ],
         "involved_cats": {
-            "r_c": {
+            "m_c": {
                 "status": [
-                    "kitten"
-                ],
+                    "-afterlife"
+                ]
+            },
+            "r_c": {
                 "group": [
-                    "starclan"
+                    "starclan",
+                    "dark_forest"
                 ]
             }
         }
