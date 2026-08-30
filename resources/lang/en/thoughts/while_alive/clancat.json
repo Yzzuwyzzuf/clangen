@@ -8396,7 +8396,25 @@
             "Considers naming a kit after kin",
             "Craves lizards",
             "Craves water voles",
-            "Struggles to slow down and take it easy"
+            "Struggles to slow down and take it easy",
+            "Is out of breath",
+            "Can't lay down comfortably",
+            "Is staring lovingly at {PRONOUN/m_c/poss} flank",
+            "Felt {PRONOUN/m_c/poss} kits move!",
+            "Is spending extra time tending to {PRONOUN/m_c/poss} nest",
+            "Is stressing over whether {PRONOUN/m_c/object}'ll be a good parent...",
+            "Is purring hard, hoping {PRONOUN/m_c/poss} kits will feel how much {PRONOUN/m_c/object} {VERB/m_c/love/loves} them",
+            "Is stressed over finding the right bedding",
+            "Would kill for a toad covered in herbs right about now",
+            "Has been extra snippy lately",
+            "Snapped at a cat trying to touch {PRONOUN/m_c/poss} stomach without even asking to",
+            "Was woken up by {PRONOUN/m_c/poss} kits moving around so much",
+            "Took extra prey from the fresh kill pile",
+            "Feels sore all over",
+            "Is too heavy to stand up on {PRONOUN/m_c/poss} own",
+            "Is saying different kit names aloud to try them out",
+            "Is insisting on a naming a kit after a current craving",
+            "Is feeling overwhelmed"
         ],
         "involved_cats": {
             "m_c": {
