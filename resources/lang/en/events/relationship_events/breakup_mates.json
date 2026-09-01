@@ -13,7 +13,8 @@
 		"m_c realizes that {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} have the mentality to keep a romantic relationship right now. After a little talk with r_c, they have decided that they should just be friends, for now at least.",
 		"m_c feels like {PRONOUN/m_c/subject} {VERB/m_c/aren't/isn't} a good fit for r_c anymore. After a talk with {PRONOUN/r_c/object}, they've decided to just be friends.",
 		"m_c isn't so sure about continuing a romantic relationship with r_c anymore. After a little talk, they have decided that they should just be friends.",
-		"m_c and r_c announce their break-up. Before their friends can offer sympathy, m_c and r_c reassure them that they left off on good terms and will still be good friends!"
+		"m_c and r_c announce their break-up. Before their friends can offer sympathy, m_c and r_c reassure them that they left off on good terms and will still be good friends!",
+		"After m_c and r_c's breakup, nothing much seemed to change. In fact, the two seem to be much happier as friends then they ever were as mates."
 	],
 	"lost_feelings":[
 		"m_c and r_c lost feelings for each other over time. They broke up this moon.",
@@ -28,7 +29,8 @@
 		"Out of the blue, m_c bluntly tells r_c that {PRONOUN/m_c/subject} {VERB/m_c/aren't/isn't} interested in {PRONOUN/r_c/object} anymore, so {PRONOUN/m_c/subject} {VERB/m_c/call/calls} off their relationship. r_c walks away heartbroken and confused.",
     	"Some relationships turn out good, some don't, but for m_c and r_c's relationship, things <i>really</i> didn't turn out so well. They've broken up.", 
     	"Things have become tense and sour in m_c and r_c’s relationship. They decided to break up before any fight breaks out between them.",
-		"r_c broke up with m_c and m_c has taken it very hard. {PRONOUN/m_c/subject/CAP} seem to be avoiding r_c as much as possible."
+		"r_c broke up with m_c and m_c has taken it very hard. {PRONOUN/m_c/subject/CAP} seem to be avoiding r_c as much as possible.",
+		"Nobody truly knows who started that intense final fight, all they know is it ended with m_c and r_c cursing each others names and ending things once and for all."
 	],
 	"chill_breakup":[
 		"m_c and r_c broke up.", 
