@@ -19,9 +19,7 @@ from scripts.events_module.event_filters import (
     check_relationship_value,
     get_personality_compatibility,
     event_for_poi,
-    check_rel_constraint_groups,
 )
-from scripts.events_module.patrol.create_new_cat import updated_create_new_cat
 from scripts.events_module.patrol.enums import PatrolChoice
 from scripts.events_module.patrol.generate_patrol_list import (
     get_patrol_list,
@@ -35,7 +33,6 @@ from scripts.events_module.text_pool_event.check_general_constraints import (
 from scripts.events_module.text_pool_event.event_retrieval import get_valid_event
 from scripts.events_module.text_pool_event.find_involved_cats import find_cats
 from scripts.events_module.text_pool_event.text_pool_event import TextPoolEvent
-from scripts.game_structure import constants
 from scripts.game_structure.game.settings import game_setting_get
 from scripts.game_structure import game
 from scripts.events_module.text_adjust import (
@@ -124,6 +121,7 @@ class Patrol:
 
         # Find valid patrol
         self.patrol_event = self._get_possible_patrol(patrol_type)
+        self._create_needed_cats()
 
         # Return text adjusted patrol intro
         return event_text_adjust(
@@ -161,11 +159,21 @@ class Patrol:
 
         return self.determine_outcome(antagonize=(path == PatrolChoice.ANTAGONIZE))
 
+    def _create_needed_cats(self):
+        """
+        Creates needed cats for the patrol start.  In its own function for unit testing purposes.
+        """
+        handle_consequences.create_needed_cats(
+            self.patrol_event, self.involved_cats, self.other_clan
+        )
+
     def _add_patrol_cats(self, patrol_cats: List[Cat]) -> None:
         """
         Sorts and categorizes patrol cats, then determines a patrol leader.
         :param patrol_cats: list of cats which are on the patrol
         """
+        self.involved_cats.clear()
+
         # ADD TO PATROL_CATS
 
         self.patrol_cats = patrol_cats
@@ -313,6 +321,9 @@ class Patrol:
             print("No romantic event")
             return False
 
+        if romantic_event == self.debug_patrol_id:
+            return True
+
         chance_of_romance_patrol = get_config(
             "patrol_generation.chance_of_romance_patrol"
         )
@@ -394,7 +405,7 @@ class Patrol:
         chosen_patrol: Optional[PatrolEvent] = None
 
         # first we see if we can get a romantic patrol
-        if romantic_patrols and not self.debug_patrol_id:
+        if romantic_patrols:
             chosen_patrol = self._get_valid_patrol(
                 romantic_patrols.copy(), find_romance=True
             )
@@ -435,11 +446,7 @@ class Patrol:
             chosen_patrol, involved_cats = get_valid_event(
                 primary_cat=self.involved_cats["p_l"],
                 involved_cats=self.involved_cats,
-                interactable_cats=[
-                    c
-                    for c in self.involved_cats["patrol_cats"]
-                    if c != self.involved_cats["p_l"]
-                ],
+                interactable_cats=self.involved_cats["patrol_cats"],
                 possible_events=patrols_to_test,
                 other_clan=self.other_clan,
                 ensured_id=self.debug_patrol_id,
@@ -541,11 +548,7 @@ class Patrol:
         chosen_success, self.outcome_cats["success"] = get_valid_event(
             primary_cat=self.involved_cats["p_l"],
             involved_cats=self.involved_cats,
-            interactable_cats=[
-                c
-                for c in self.involved_cats["patrol_cats"]
-                if c != self.involved_cats["p_l"]
-            ],
+            interactable_cats=[c for c in self.involved_cats["patrol_cats"]],
             possible_events=success_outcomes,
             other_clan=self.other_clan,
             ensured_id=debug_outcome,
@@ -599,14 +602,14 @@ class Patrol:
         ]
         temp_involved_cats = self.involved_cats.copy()
 
-        temp_involved_cats = find_cats(
+        temp_involved_cats, will_create_how_many = find_cats(
             interactable_cats=temp_involved_cats["patrol_cats"],
             involved_cats=temp_involved_cats,
             outside_cats=outside_cats,
             event=outcome,
             other_clan=self.other_clan,
         )
-        if not temp_involved_cats:
+        if not (temp_involved_cats or will_create_how_many):
             return False
 
         # if we're here, then we must have found all our cats!
@@ -625,6 +628,7 @@ class Patrol:
         chosen_outcome, success = self.calculate_success(success_outcome, fail_outcome)
 
         print(f"PATROL ID: {self.patrol_event.event_id} | SUCCESS: {success}")
+        print(f"Success Outcome: {success_outcome} | Failure Outcome: {fail_outcome}")
         print(
             f"Patrol Frequency: {self.patrol_event.frequency} | Patrol Weight: {self.patrol_event.weight}"
         )
