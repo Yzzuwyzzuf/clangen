@@ -10750,7 +10750,7 @@
         {
             "frequency": 3,
             "strings": [
-                "The mice are tough to rat out in all the hay but the patrol returns with plenty of prey to go around."
+                "The mice are tough to rat out in all the hay, but the patrol returns with plenty of prey to go around."
             ],
             "exp_gained": 20,
             "supply": [
@@ -10803,14 +10803,14 @@
             {
                 "frequency": 1,
                 "strings": [
-                    "The cats don't even reach the barn before they're intercepted by a rather territorial looking wild hog. Hogs are not to be trifled with but find no way past it. The patrol returns home empty handed."
+                    "The cats don't even reach the barn before they're intercepted by a rather territorial looking wild hog. Hogs are not to be trifled with, but they find no way past it. The patrol returns home empty handed."
                 ],
                 "exp_gained": 0
             },
             {
                 "frequency": 1,
                 "strings": [
-                    "The cats don't even reach the barn before they're intercepted by a rather territorial looking wild hog. The hog doesn't look that tough, the patrol decided and attempted to take it down but no cat expected how tough such an animal actually was."
+                    "The cats don't even reach the barn before they're intercepted by a rather territorial looking wild hog. The hog doesn't look that tough, the patrol decided and attempted to take it down, but no cat expected how tough such an animal actually was."
                 ],
                 "exp_gained": 0,
                 "death": [
