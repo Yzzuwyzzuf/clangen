@@ -6,6 +6,7 @@ from scripts.cat.factories.test_cat_factory import TestCatFactory
 from scripts.cat.factories.typed_dicts import StatusDict
 from scripts.cat.sprites.load_sprites import sprites
 from scripts.clan import Clan, OtherClan
+from scripts.config import get_config
 from scripts.events_module.parameter_dicts import (
     InvolvedCatDict,
     JoinDict,
@@ -616,7 +617,7 @@ class TestOutcomeExecution(unittest.TestCase):
             msg=f"Clan and outsider reputation should be increased.",
         )
 
-    def test_supply_change(self):
+    def test_basic_supply_change(self):
         war1 = TestCatFactory.create_cat(rank=CatRank.WARRIOR)
 
         patrol = PatrolEvent(
@@ -631,7 +632,6 @@ class TestOutcomeExecution(unittest.TestCase):
                     "supply": [
                         SupplyDict(type="freshkill", adjust="increase_tiny"),
                         SupplyDict(type="honey", adjust="increase_tiny"),
-                        SupplyDict(type="random_herbs", adjust="increase_huge"),
                     ],
                 }
             ],
@@ -639,7 +639,6 @@ class TestOutcomeExecution(unittest.TestCase):
         )
         freshkill_count = game.clan.freshkill_pile.total_amount
         honey_count = game.clan.herb_supply.get_single_herb_total("honey")
-        total_herb_count = game.clan.herb_supply.total
 
         self.patrol_class._add_patrol_cats([war1])
         self.patrol_class._get_valid_patrol([])
@@ -658,13 +657,55 @@ class TestOutcomeExecution(unittest.TestCase):
             freshkill_count + 2 == game.clan.freshkill_pile.total_amount,
             msg=f"{freshkill_count} + 2 should equal {game.clan.freshkill_pile.total_amount}",
         )
+
         # check single herb change
-        self.assertTrue(
-            honey_count + 2 == game.clan.herb_supply.get_single_herb_total("honey"),
-            msg=f"{honey_count} + 1 should equal {game.clan.herb_supply.get_single_herb_total('honey')}",
+        increase_amount = get_config(
+            f"clan_resources.herbs.increase_amounts.increase_tiny"
         )
-        # check random herb change
         self.assertTrue(
-            total_herb_count + 10 == game.clan.herb_supply.total,
-            msg=f"{total_herb_count} + 9 should equal {game.clan.herb_supply.total}",
+            honey_count + increase_amount
+            == game.clan.herb_supply.get_single_herb_total("honey"),
+            msg=f"old total ({honey_count}) + increase_amount ({increase_amount}) should equal {game.clan.herb_supply.get_single_herb_total('honey')}",
+        )
+
+    def test_random_herb_supply_change(self):
+        war1 = TestCatFactory.create_cat(rank=CatRank.WARRIOR)
+
+        patrol = PatrolEvent(
+            event_id="test",
+            types=["hunting"],
+            intro_strings=["test"],
+            decline_strings=["test"],
+            involved_cats={"p_l": InvolvedCatDict()},
+            success_outcomes=[
+                {
+                    "strings": [""],
+                    "supply": [
+                        SupplyDict(type="random_herbs", adjust="increase_huge"),
+                    ],
+                }
+            ],
+            fail_outcomes=[{"strings": ["test"]}],
+        )
+        total_herb_count = game.clan.herb_supply.total
+
+        self.patrol_class._add_patrol_cats([war1])
+        self.patrol_class._get_valid_patrol([])
+        self.patrol_class._check_outcome_constraints(
+            patrol.success_outcomes[0], "success"
+        )
+        handle_consequences.disable_random = True
+        handle_consequences.execute_outcome(
+            patrol.success_outcomes[0],
+            self.patrol_class.involved_cats,
+            other_clan=OtherClan(),
+        )
+
+        # check random herb change
+        increase_amount = get_config(
+            f"clan_resources.herbs.increase_amounts.increase_huge"
+        )
+        self.assertTrue(
+            total_herb_count + increase_amount == game.clan.herb_supply.total,
+            msg=f"old_total ({total_herb_count}) + increase_amount ({increase_amount}) should equal {game.clan.herb_supply.total}",
         )
