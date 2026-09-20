@@ -232,6 +232,11 @@
     "Rowan", "Fox", "Orange", "Copper", "Cinnamon", "Burn", "Burnt", "Robin", "Oleander", "Scarlet", "Rust", "Lyre",
     "Robin", "Berry", "Ochre", "Auburn", "Pumpkin", "Burnet", "Cedar", "Blazing", "Carnation", "Oriole", "Saffron", "Scorch"
     ],
+    "SOMALI": [
+      "Ginger", "Ginger", "Red", "Red", "Fire", "Flame", "Ember", "Oak", "Shade", "Russet", "Fuchsia", "Hollyhock", "Warm",
+    "Rowan", "Fox", "Orange", "Copper", "Cinnamon", "Burn", "Burnt", "Robin", "Oleander", "Scarlet", "Rust", "Lyre",
+    "Robin", "Berry", "Ochre", "Auburn", "Burnet", "Maple", "Tawny", "Cedar", "Blazing", "Carnation", "Saffron", "Scorch", "Rose"
+    ],
     "SIENNA": [
     "Ginger", "Ginger", "Red", "Red", "Fire", "Flame", "Ember", "Oak", "Shade", "Russet", "Fuchsia", "Hollyhock", "Warm",
     "Rowan", "Fox", "Orange", "Copper", "Cinnamon", "Burn", "Burnt", "Robin", "Oleander", "Scarlet", "Rust", "Lyre",
@@ -335,6 +340,9 @@
     "DARKGINGER": [
 	"burn", "blaze", "flame", "flare", "ember", "fox", "vixen"
     ],
+      "SOMALI": [
+        "burn", "blaze", "flame", "flare", "ember", "fox", "vixen"
+      ],
     "SIENNA": [
 	"burn", "blaze", "flame", "flare", "ember", "fox", "vixen"
     ],
