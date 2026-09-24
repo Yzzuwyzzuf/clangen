@@ -8222,6 +8222,70 @@
         }
     },
     {
+        "event_id": "joint_pain_gen",
+        "strings": [
+            "Is rubbing {PRONOUN/m_c/poss} sore joints",
+            "Is extra irritable today",
+            "Is stretching {PRONOUN/m_c/poss} aching joints",
+            "Can't bring {PRONOUN/m_c/self} to move, joints hurt too much",
+            "Is feeling extra stiff today",
+            "Is walking extra slowly today",
+            "Feels in {PRONOUN/m_c/poss} bones that a storm is approaching",
+            "Surprised {PRONOUN/m_c/poss} Clanmates by predicting the weather",
+            "Can hear {PRONOUN/m_c/poss} bones creaking"
+        ],
+        "involved_cats": {
+            "m_c": {
+                "health": {
+                    "condition": [
+                        "joint pain"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "event_id": "joint_pain_to_med_gen",
+        "strings": [
+            "Is asking r_c for nettles for {PRONOUN/m_c/poss} joints"
+        ],
+        "involved_cats": {
+            "m_c": {
+                "health": {
+                    "condition": [
+                        "joint pain"
+                    ]
+                }
+            },
+            "r_c": {
+                "status": [
+                    "medicine cat apprentice",
+                    "medicine cat"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "joint_pain_not_elder",
+        "strings": [
+            "Feels like an elder",
+            "Understands why elders are so grumpy all the time"
+        ],
+        "involved_cats": {
+            "m_c": {
+                "age": [
+                    "-elder",
+                    "-senior adult"
+                ],
+                "health": {
+                    "condition": [
+                        "joint pain"
+                    ]
+                }
+            }
+        }
+    },
+    {
         "event_id": "shivering_frostbite_gen",
         "strings": [
             "Is absolutely freezing",
