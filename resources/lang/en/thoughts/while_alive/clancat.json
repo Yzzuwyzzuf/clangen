@@ -8274,8 +8274,7 @@
         "involved_cats": {
             "m_c": {
                 "status": [
-                    "-elder",
-                    "-senior adult"
+                    "-elder"
                 ],
                 "health": {
                     "condition": [
