@@ -2,7 +2,8 @@
     {
         "event_id": "comfort_inc_med_avoids",
         "strings": [
-            "It seems like there's an unspoken apology between m_c and r_c."
+            "It seems like there's an unspoken apology between m_c and r_c.",
+            "It seems like m_c and r_c are able to tolerate each others presence a bit more today."
         ],
         "relationship_constraint": [
             {
@@ -261,7 +262,8 @@
         "strings": [
             "m_c wants to snuggle with r_c.",
             "m_c lets r_c groom {PRONOUN/m_c/object} messy fur.",
-            "r_c teaches m_c how to eat politely."
+            "r_c teaches m_c how to eat politely.",
+            "r_c lets m_c curl up for a nap in {PRONOUN/r_c/poss} fur."
         ],
         "involved_cats": {
             "m_c": {
@@ -355,44 +357,12 @@
         ]
     },
     {
-        "event_id": "comfortable_kit_odd1",
-        "strings": [
-            "m_c chomps on r_c's ear.",
-            "m_c won't stop copying everything r_c does.",
-            "m_c asks r_c where kits come from.",
-            "m_c asks r_c innocent but invasive questions.",
-            "m_c is demanding r_c's attention."
-        ],
-        "involved_cats": {
-            "m_c": {
-                "status": [
-                    "kitten"
-                ]
-            }
-        },
-        "relationship_changes": [
-            {
-                "cats_from": [
-                    "r_c"
-                ],
-                "cats_to": [
-                    "m_c"
-                ],
-                "mutual": false,
-                "values": [
-                    "like",
-                    "comfort"
-                ],
-                "amount": -10
-            }
-        ]
-    },
-    {
-        "event_id": "comfortable_kit_parent_inc_med_dec_trust",
+        "event_id": "comfortable_kit_parent_inc_med",
         "strings": [
             "m_c realizes even though r_c is {PRONOUN/m_c/poss} parent, {PRONOUN/r_c/subject} {VERB/r_c/have/has} some of the same problems.",
             "m_c tells r_c all {PRONOUN/m_c/poss} problems, even though r_c never knows how to help.",
-            "m_c and r_c act more like siblings than kit and parent, sometimes."
+            "m_c and r_c act more like siblings than kit and parent, sometimes.",
+            "r_c and m_c spend all their time together."
         ],
         "involved_cats": {
             "m_c": {

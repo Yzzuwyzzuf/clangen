@@ -186,5 +186,38 @@
                 }
             }
         }
+    },
+    {
+        "event_id": "comfort_kit_de_med1",
+        "strings": [
+            "m_c chomps on r_c's ear.",
+            "m_c won't stop copying everything r_c does.",
+            "m_c asks r_c where kits come from.",
+            "m_c asks r_c innocent but invasive questions.",
+            "m_c is demanding r_c's attention."
+        ],
+        "involved_cats": {
+            "m_c": {
+                "status": [
+                    "kitten"
+                ]
+            }
+        },
+        "relationship_changes": [
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "mutual": false,
+                "values": [
+                    "like",
+                    "comfort"
+                ],
+                "amount": -10
+            }
+        ]
     }
 ]
