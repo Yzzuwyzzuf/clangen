@@ -499,5 +499,81 @@
                 ]
             }
         ]
+    },
+    {
+        "event_id": "failed_murder_attempt",
+        "strings": [
+            "m_c bumped into r_c while dangerously close to the Thunderpath before claiming to have done it on accident. The glint in m_c's eyes, however, tells another story...",
+            "m_c bumped into r_c while dangerously close to a cliff before claiming to have done it on accident. The glint in m_c's eyes, however, tells another story...",
+            "m_c took r_c to a dangerous part of the territory and, while nothing happened, r_c couldn't help but notice that m_c seemed to be waiting for something to happen...",
+            "m_c offered r_c some small red berries as a snack but r_c, noticing the sinister air around {PRONOUN/m_c/object}, said {PRONOUN/r_c/subject} {VERB/r_c/weren't/wasn't} hungry.",
+            "r_c noticed m_c stalking {PRONOUN/r_c/object} when {PRONOUN/m_c/subject} {VERB/r_c/were/was} about to go on a walk alone so {PRONOUN/r_c/subject} changed {PRONOUN/r_c/poss} mind.",
+            "r_c dodged some dangerous falling debris and, upon looking up, spotted m_c above looking disappointed... Did {PRONOUN/m_c/subject} just try to kill {PRONOUN/r_c/object}?",
+            "r_c saved m_c from a big dog but, rather then be happy, {PRONOUN/m_c/subject} seemed disappointed... Did m_c want something else to happen?",
+            "r_c was attacked by a rogue but when {PRONOUN/r_c/subject} won, the rogue claimed to be hired by r_c before fleeing."
+        "involved_cats": {
+            "m_c": {
+                "status": [
+                    "-kitten"
+                ],
+                "stat": {
+                    "trait": [
+                        "bloodthirsty",
+                        "cold",
+                        "vengeful"
+                    ]
+                }
+            },
+            "r_c": {
+                "status": [
+                    "-kitten"
+                ]
+            }
+        },
+        "relationship_constraint": [
+            {
+                "cats_from": [
+                    "m_c"
+                ],
+                "cats_to": [
+                    "r_c"
+                ],
+                "mutual": false,
+                "constraints": [
+                    "hates"
+                ]
+            }
+        ],
+        "relationship_changes": [
+            {
+                "cats_from": [
+                    "m_c"
+                ],
+                "cats_to": [
+                    "r_c"
+                ],
+                "mutual": false,
+                "values": [
+                    "like",
+                    "respect"
+                ],
+                "amount": -15
+            },
+            {
+                "cats_from": [
+                    "m_c"
+                ],
+                "cats_to": [
+                    "r_c"
+                ],
+                "mutual": false,
+                "values": [
+                    "like",
+                    "comfort",
+                    "trust"
+                ],
+                "amount": -15
+            }
+        ]
     }
 ]

@@ -42,7 +42,8 @@
         "strings": [
             "m_c's patience wears thin with r_c's troublemaking.",
             "r_c pulls off a mouse-brained stunt that gets on m_c's nerves.",
-            "m_c wishes r_c would settle down and grow up."
+            "m_c wishes r_c would settle down and grow up.",
+            "m_c is tired of how easily r_c gets into trouble."
         ],
         "relationship_changes": [
             {
@@ -99,7 +100,9 @@
             "r_c gets worked up about something small, and nothing m_c says will calm {PRONOUN/r_c/object} down.",
             "m_c wishes r_c would lighten up and mellow out a bit.",
             "m_c looks back on the time that {PRONOUN/m_c/subject} found r_c's ferocity exciting rather than troubling.",
-            "m_c is tired of dealing with r_c's temper."
+            "m_c is tired of dealing with r_c's temper.",
+            "m_c apologizes on r_c's behalf after {PRONOUN/r_c/subject} started a huge argument.",
+            "m_c is tired of how easily r_c gets into trouble."
         ],
         "relationship_changes": [
             {
@@ -131,7 +134,8 @@
         "strings": [
             "m_c begins to feel uncomfortable around r_c, though {PRONOUN/m_c/subject} can't put {PRONOUN/m_c/poss} paw on why.",
             "m_c wonders how little it might take to drive r_c to hurt another cat.",
-            "m_c questions r_c about how {PRONOUN/r_c/subject} got scraped up, but r_c refuses to answer."
+            "m_c questions r_c about how {PRONOUN/r_c/subject} got scraped up, but r_c refuses to answer.",
+            "r_c does something that makes m_c scared of {PRONOUN/r_c/object}."
         ],
         "relationship_changes": [
             {
@@ -163,7 +167,9 @@
         "strings": [
             "m_c wishes r_c would display affection more openly.",
             "r_c seems aloof and uninterested when m_c chats with {PRONOUN/r_c/object} about {PRONOUN/m_c/poss} day.",
-            "m_c remembers finding r_c's chilly air attractive when they were first courting; now, {PRONOUN/m_c/subject} just {VERB/m_c/find/finds} it alienating."
+            "m_c remembers finding r_c's chilly air attractive when they were first courting; now, {PRONOUN/m_c/subject} just {VERB/m_c/find/finds} it alienating.",
+            "m_c just wants r_c to show that {PRONOUN/r_c/subject} {VERB/r_c/care/cares} more then {PRONOUN/r_c/subject} {VERB/r_c/let/lets} on...",
+            "m_c wonders if r_c thinks of {PRONOUN/m_c/object} as a bother..."
         ],
         "relationship_changes": [
             {
@@ -195,7 +201,10 @@
         "strings": [
             "m_c wishes r_c would just grow up.",
             "m_c is unpleasantly reminded of how simplistic r_c's view of the world is.",
-            "r_c's obnoxious sense of humor gets on m_c's nerves."
+            "r_c's obnoxious sense of humor gets on m_c's nerves.",
+            "m_c wonders if r_c is even capable of taking anything seriously.",
+            "m_c would love if r_c acted like {PRONOUN/m_c/poss} mate rather then her kit.",
+            "m_c is tired of listening to r_c's childish tantrums."
         ],
         "relationship_changes": [
             {
@@ -227,7 +236,8 @@
         "strings": [
             "m_c wishes r_c wouldn't interrupt romantic moments by cracking jokes.",
             "m_c needs to discuss something difficult with r_c but fears {PRONOUN/r_c/subject} won't take it seriously.",
-            "m_c doesn't laugh as much at r_c's jokes anymore."
+            "m_c doesn't laugh as much at r_c's jokes anymore.",
+            "m_c wonders if r_c is even capable of taking anything seriously."
         ],
         "relationship_changes": [
             {
@@ -291,7 +301,8 @@
         "strings": [
             "m_c wishes r_c wouldn't do risky, mouse-brained things.",
             "m_c worries r_c doesn't take {PRONOUN/r_c/poss} own safety seriously enough.",
-            "r_c does something impulsive, and m_c takes the brunt of the consequences."
+            "r_c does something impulsive, and m_c takes the brunt of the consequences.",
+            "m_c is tired of how easily r_c gets into trouble."
         ],
         "relationship_changes": [
             {

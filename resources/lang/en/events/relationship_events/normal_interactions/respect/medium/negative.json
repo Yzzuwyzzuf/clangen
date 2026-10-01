@@ -257,7 +257,8 @@
             "r_c was told {PRONOUN/r_c/subject} {VERB/r_c/are/is} growing bigger than m_c.",
             "r_c is better at moss-ball than m_c.",
             "The older Clanmates always believe r_c over m_c.",
-            "m_c is upset that r_c always wins in their games."
+            "m_c is upset that r_c always wins in their games.",
+            "m_c is throwing a tantrum and blaming r_c for it."
         ],
         "involved_cats": {
             "m_c": {
@@ -278,7 +279,9 @@
             "m_c hisses at r_c for getting a bigger piece of prey.",
             "m_c tells r_c {PRONOUN/r_c/subject} {VERB/r_c/don't/doesn't} deserve all the attention from the older cats.",
             "m_c says r_c's name is stupid, but m_c is just jealous.",
-            "An older Clanmate tells m_c to be nice to r_c."
+            "An older Clanmate tells m_c to be nice to r_c.",
+            "m_c is jealous that r_c gets to do something {PRONOUN/m_c?subject} can't.",
+            "m_c is upset that r_c gets treated differently then {PRONOUN/m_c/object}."
         ],
         "involved_cats": {
             "m_c": {
@@ -316,7 +319,8 @@
             "m_c is afraid that r_c is going to grow up bigger than {PRONOUN/m_c/object}.",
             "r_c says that m_c said something mean, and no one will believe m_c's defense.",
             "m_c gets scolded for not watching r_c when r_c does something naughty.",
-            "m_c is resentful that so much is expected of {PRONOUN/m_c/object}, yet no one expects anything of r_c."
+            "m_c is resentful that so much is expected of {PRONOUN/m_c/object}, yet no one expects anything of r_c.",
+            "m_c watches r_c and realizes {PRONOUN/m_c/subject} {VERB/m_c/regret/regrets} wanting to grow up."
         ],
         "involved_cats": {
             "m_c": {
