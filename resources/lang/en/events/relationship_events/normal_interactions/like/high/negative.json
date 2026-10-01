@@ -511,6 +511,7 @@
             "r_c dodged some dangerous falling debris and, upon looking up, spotted m_c above looking disappointed... Did {PRONOUN/m_c/subject} just try to kill {PRONOUN/r_c/object}?",
             "r_c saved m_c from a big dog but, rather then be happy, {PRONOUN/m_c/subject} seemed disappointed... Did m_c want something else to happen?",
             "r_c was attacked by a rogue but when {PRONOUN/r_c/subject} won, the rogue claimed to be hired by r_c before fleeing."
+            ],
         "involved_cats": {
             "m_c": {
                 "status": [
