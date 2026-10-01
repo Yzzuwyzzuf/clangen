@@ -23,7 +23,9 @@
             "m_c feels like r_c was too rough while playing.",
             "m_c doesn't think r_c was playing fair.",
             "m_c accuses r_c of cheating during a game of hide-n-seek!",
-            "m_c cries after r_c wins one of their games."
+            "m_c cries after r_c wins one of their games.",
+            "m_c accidentially used {PRONOUN/m_c/poss} claws while play-fighting with r_c.",
+            "m_c and r_c accidentially hurt each other while play-fighting."
         ],
         "involved_cats": {
             "m_c": {
@@ -39,19 +41,86 @@
         }
     },
     {
-        "event_id": "comfort_de_kit_parent_inc_med_respect_inc",
+        "event_id": "comfort_kit_de_med2",
+        "strings": [
+            "m_c chomps on r_c's ear.",
+            "m_c won't stop copying everything r_c does.",
+            "m_c asks r_c where kits come from.",
+            "m_c asks r_c innocent but invasive questions.",
+            "m_c is demanding r_c's attention."
+        ],
+        "involved_cats": {
+            "m_c": {
+                "status": [
+                    "kitten"
+                ]
+            }
+        },
+        "relationship_changes": [
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "mutual": false,
+                "values": [
+                    "like",
+                    "comfort"
+                ],
+                "amount": -10
+            }
+        ]
+    },
+    {
+        "event_id": "comfort_de_kit_parent",
         "strings": [
             "r_c scolds m_c for doing something dangerous.",
             "r_c scolds m_c for being rude to a Clanmate.",
             "r_c enforces m_c's bedtime.",
             "r_c won't let m_c have an extra piece of prey today.",
             "m_c thinks r_c is the strictest parent in the Clan.",
-            "m_c sulks after r_c prohibits a dangerous game."
+            "m_c sulks after r_c prohibits a dangerous game.",
+            "r_c assumed m_c caused a problem and wrongly punished {PRONOUN/m_c/object}.",
+            "m_c was naughty and r_c punished {PRONOUN/m_c/object} for it."
         ],
         "involved_cats": {
             "m_c": {
                 "status": [
                     "kitten"
+                ]
+            }
+        },
+        "relationship_constraint": [
+            {
+                "cats_from": [
+                    "m_c"
+                ],
+                "cats_to": [
+                    "r_c"
+                ],
+                "mutual": false,
+                "constraints": [
+                    "child/parent"
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "comfort_de_kit_parent2",
+        "strings": [
+            "r_c scolds m_c for being rude to a Clanmate.",
+            "r_c treats m_c as if {PRONOUN/m_c/subject} {VERB/m_c/were/was} still a kit.",
+            "r_c brought up something embarrassing m_c did when {PRONOUN/m_c/subject} {VERB/m_c/were/was} younger.",
+            "m_c cant stand how r_c hovers around {PRONOUN/m_c/object} as if {PRONOUN/m_c/subject} {VERB/m_c/were/was} still a kit.",
+            "r_c keeps pestering m_c about {PRONOUN/m_c/poss} love life.",
+            "m_c thinks r_c's embarrassing {PRONOUN/m_c/object}."
+        ],
+        "involved_cats": {
+            "m_c": {
+                "status": [
+                    "-kitten"
                 ]
             }
         },
@@ -174,7 +243,8 @@
             "r_c rejects m_c's advice without letting {PRONOUN/m_c/object} finish.",
             "r_c interrupts m_c during a conversation.",
             "r_c blurts out something. m_c wishes that r_c held {PRONOUN/r_c/poss} tongue.",
-            "r_c says something bad about m_c that's been on everyone's mind."
+            "r_c says something bad about m_c that's been on everyone's mind.",
+            "m_c volunteered r_c for something without even asking if {PRONOUN/r_c/subject} even wanted to do it first!"
         ],
         "involved_cats": {
             "r_c": {
@@ -186,38 +256,5 @@
                 }
             }
         }
-    },
-    {
-        "event_id": "comfort_kit_de_med1",
-        "strings": [
-            "m_c chomps on r_c's ear.",
-            "m_c won't stop copying everything r_c does.",
-            "m_c asks r_c where kits come from.",
-            "m_c asks r_c innocent but invasive questions.",
-            "m_c is demanding r_c's attention."
-        ],
-        "involved_cats": {
-            "m_c": {
-                "status": [
-                    "kitten"
-                ]
-            }
-        },
-        "relationship_changes": [
-            {
-                "cats_from": [
-                    "r_c"
-                ],
-                "cats_to": [
-                    "m_c"
-                ],
-                "mutual": false,
-                "values": [
-                    "like",
-                    "comfort"
-                ],
-                "amount": -10
-            }
-        ]
     }
 ]

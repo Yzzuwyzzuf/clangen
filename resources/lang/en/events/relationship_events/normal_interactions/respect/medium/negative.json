@@ -347,5 +347,36 @@
                 "amount": -10
             }
         ]
+    },
+    {
+        "event_id": "respect_de_kit_parent",
+        "strings": [
+            "m_c thinks r_c is nagging at {PRONOUN/m_c/object}. r_c, however, is trying to explain something important.",
+            "m_c is acting like a spoiled brat, mush to r_c's annoyance.",
+            "r_c is nagging at m_c over something inane.",
+            "m_c thinks the things r_c is trying to teach {PRONOUN/m_c/object} is boring.",
+            "m_c thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} all grown up and doesn't need r_c."
+        ],
+        "involved_cats": {
+            "m_c": {
+                "status": [
+                    "kitten"
+                ]
+            }
+        },
+        "relationship_constraint": [
+            {
+                "cats_from": [
+                    "m_c"
+                ],
+                "cats_to": [
+                    "r_c"
+                ],
+                "mutual": false,
+                "constraints": [
+                    "child/parent"
+                ]
+            }
+        ]
     }
 ]

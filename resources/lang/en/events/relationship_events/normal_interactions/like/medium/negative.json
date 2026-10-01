@@ -12,7 +12,8 @@
             "m_c keeps telling r_c to stop saying a joke, but r_c doesn't take {PRONOUN/m_c/poss} request seriously.",
             "r_c makes a snide remark about one of m_c's friends.",
             "m_c is baffled by something r_c says about religion.",
-            "r_c makes a crude remark about the Clan to m_c."
+            "r_c makes a crude remark about the Clan to m_c.",
+            "m_c complains to r_c about a pet peeve {PRONOUN/m_c/subject} {VERB/m_c/have/has}, only to learn that r_c does what {PRONOUN/m_c/subject} complained about."
         ]
     },
     {
