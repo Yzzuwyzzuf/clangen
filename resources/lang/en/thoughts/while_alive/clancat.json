@@ -101,7 +101,12 @@
             "Saw a Twoleg kit playing with a dog",
             "Saw a Twoleg kit playing with a kittypet",
             "Saw a kittypet rolling around a Twoleg garden",
-            "Is assigned the same task as r_c"
+            "Is assigned the same task as r_c",
+            "Scents prey-blood and loner scent",
+            "Scents prey-blood and rogue scent",
+            "Scents prey-blood and kittypet scent",
+            "Noticed signs of a predator hunting in the territory",
+            "Caught the stale scent of a cat {PRONOUN/m_c/subject} can't quite identify"
         ],
         "involved_cats": {
             "m_c": {
@@ -4372,7 +4377,7 @@
             "Keeps a healthy distance from POI while on patrol",
             "Groans when {PRONOUN/m_c/subject} {VERB/m_c/have/has} to patrol near POI",
             "Spends as little time at POI as {PRONOUN/m_c/subject} {VERB/m_c/need/needs} to be",
-            "Is extra jumpy when at POI"
+            "Is extra jumpy when {PRONOUN/m_c/subject}{VERB/m_c/'re/s} at POI"
         ],
         "involved_cats": {
             "m_c": {
@@ -4414,7 +4419,8 @@
         "strings": [
             "Is demanding that r_c to come back from POI safe",
             "Is worried when r_c goes out to POI",
-            "Thinks r_c is so cool for going to POI and coming back alive"
+            "Thinks r_c is so cool for going to POI and coming back alive",
+            "Wonders why r_c doesn't like going to POI"
         ],
         "involved_cats": {
             "m_c": {
@@ -4438,17 +4444,13 @@
             "tags": ["prey"]
         },
         "strings": [
-            "Hopes to find more prey at POI",
-            "Wonders if the prey is better at POI",
-            "Is bummed after finding no prey at POI",
-            "Heard a rumor that prey was plentiful at POI this moon",
-            "Caught a lot of prey at POI",
-            "Wants to hunt at POI",
-            "Can't believe theres no prey at POI",
-            "Noticed signs of a predator hunting at POI",
-            "Scents prey-blood and loner scent at POI",
-            "Scents prey-blood and rogue scent at POI",
-            "Scents prey-blood and kittypet scent at POI"
+            "Hopes to find more POI today",
+            "Wonders if the POI is better on the other end of the territory",
+            "Is bummed after finding no POI while hunting",
+            "Heard a rumor that POI was plentiful this moon",
+            "Caught a lot of POI today and is very happy about it",
+            "Went out of {PRONOUN/m_c/poss} way to catch a lot of POI this moon",
+            "Can't believe theres no POI anywhere in the territory"
         ],
         "involved_cats": {
             "m_c": {
