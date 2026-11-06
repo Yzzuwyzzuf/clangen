@@ -2303,7 +2303,7 @@
             "r_c0": {}
         },
         "strings": [
-            "Why did lead_name have to call the meeting so early? No amount of excitement over {PRONOUN/m_c/poss} apprenticeship or getting r_c0 as a mentor can make up for how cranky {PRONOUN/m_c/subject} {VERB/m_c/are/is} in the morning.",
+            "Why did lead_name have to call the meeting so early? No amount of excitement over m_c's apprenticeship or getting r_c0 as a mentor can make up for how cranky {PRONOUN/m_c/subject} {VERB/m_c/are/is} in the morning.",
             "m_c is more withdrawn than most cats {PRONOUN/m_c/poss} age, but lead_name hopes that r_c0 might help {PRONOUN/m_c/object} come out of {PRONOUN/m_c/poss} shell."
         ],
         "relationship_constraint": [
