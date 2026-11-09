@@ -6351,6 +6351,57 @@
         }
     },
     {
+        "event_id": "stolen_gen",
+        "strings": [
+            "Is missing {PRONOUN/m_c/poss} parents",
+            "Is missing {PRONOUN/m_c/poss} old Clan",
+            "Wonders if {PRONOUN/m_c/poss} old Clan misses {PRONOUN/m_c/object}",
+            "Can't get used to c_n smell",
+            "Finds comfort in the smell of {PRONOUN/m_c/poss} old Clan's scent lingering on {PRONOUN/m_c/poss} fur"
+        ],
+        "involved_cats": {
+            "m_c": {
+                "backstory": [
+                    "stolenkit1",
+                    "stolenkit2",
+                    "stolenkit3",
+                    "stolenkit4"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "stolen_grown",
+        "strings": [
+            "Mourns the fact {PRONOUN/m_c/poss} fur no longer smells of {PRONOUN/m_c/poss} old Clan",
+            "Wonders of {PRONOUN/m_c/subject} would be able to go back to {PRONOUN/m_c/poss} old Clan",
+            "Wonders if c_n considers {PRONOUN/m_c/object} a Clanmate or a prisoner",
+            "Mourns the inability to remember what {PRONOUN/m_c/poss} old Clan looks like anymore",
+            "Thought {PRONOUN/m_c/subject} saw {PRONOUN/m_c/poss} parent at the border",
+            "Wonders if {PRONOUN/m_c/poss} old Clan would still recognize {PRONOUN/m_c/object
+        ],
+        "involved_cats": {
+            "m_c": {
+                "status": [
+                    "apprentice",
+                    "mediator apprentice",
+                    "medicine cat apprentice",
+                    "warrior",
+                    "mediator",
+                    "medicine cat",
+                    "deputy",
+                    "leader"
+                ],
+                "backstory": [
+                    "stolenkit1",
+                    "stolenkit2",
+                    "stolenkit3",
+                    "stolenkit4"
+                ]
+            }
+        }
+    },
+    {
         "event_id": "gen_to_dead_gen",
         "strings": [
             "Is listening to stories about r_c",
